@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LightTableViewController.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,9 +19,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
-    LightTableViewController *lightTableView = [[LightTableViewController alloc]initWithNibName:nil bundle:nil];
+    MainViewController *mainVC = [[MainViewController alloc]initWithNibName:nil bundle:nil];
     
-    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:lightTableView];
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:mainVC];
     
     self.window.rootViewController = navi;
     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		574813281A6372A700955187 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574813271A6372A700955187 /* MainViewController.m */; };
 		5752685C1A2FF9A600662674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5752685B1A2FF9A600662674 /* main.m */; };
 		5752685F1A2FF9A600662674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5752685E1A2FF9A600662674 /* AppDelegate.m */; };
 		575268671A2FF9A600662674 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575268661A2FF9A600662674 /* Images.xcassets */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		574813261A6372A700955187 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		574813271A6372A700955187 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		575268561A2FF9A600662674 /* LightTabelViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightTabelViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5752685A1A2FF9A600662674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5752685B1A2FF9A600662674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 				575268851A2FFB7400662674 /* Model */,
 				5752685D1A2FF9A600662674 /* AppDelegate.h */,
 				5752685E1A2FF9A600662674 /* AppDelegate.m */,
+				574813261A6372A700955187 /* MainViewController.h */,
+				574813271A6372A700955187 /* MainViewController.m */,
 				575268821A2FFA7C00662674 /* LightTableViewController.h */,
 				575268831A2FFA7C00662674 /* LightTableViewController.m */,
 				575268661A2FF9A600662674 /* Images.xcassets */,
@@ -262,6 +267,7 @@
 				5752689C1A3004FC00662674 /* Photo.m in Sources */,
 				575268911A2FFBED00662674 /* LightDataSource.m in Sources */,
 				575268941A2FFC0900662674 /* LightTableViewCell.m in Sources */,
+				574813281A6372A700955187 /* MainViewController.m in Sources */,
 				575268841A2FFA7C00662674 /* LightTableViewController.m in Sources */,
 				5752689B1A3004FC00662674 /* Store.m in Sources */,
 				5752685F1A2FF9A600662674 /* AppDelegate.m in Sources */,
@@ -441,6 +447,7 @@
 				5752687B1A2FF9A600662674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5752687C1A2FF9A600662674 /* Build configuration list for PBXNativeTarget "LightTabelViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +456,7 @@
 				5752687E1A2FF9A600662674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
